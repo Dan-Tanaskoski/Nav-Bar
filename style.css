@@ -1,0 +1,76 @@
+html {
+  display: inline-block;
+  background-color: rgb(173, 197, 250);
+  font-family: "Syne Mono", monospace;
+  font-size: 20px;
+  fontmargin-right: -200px;
+  -weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  border: 1px solid rgb(197, 76, 76);
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  padding: 200px;
+  margin: 100px 0 -100px 400px;
+  background-color: rgb(33, 52, 114);
+  color: #ccc;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+}
+
+#home,
+#news,
+#contact,
+#about {
+  font-family: "Syne Mono", monospace;
+  font-size: 20px;
+  width: 200px;
+}
+
+.nav-container {
+  background-color: #333;
+  width: 11%;
+  margin-bottom: 1000px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.nav-container a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: none;
+}
+
+.container-all {
+  display: flex;
+}
+
+#icon {
+  font-size: 50px;
+}
+
+.btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(15, 35, 121);
+  padding: 0 14px 900px 16px;
+  background-color: inherit;
+}
+
+.btn:hover {
+  color: rgb(121, 72, 15);
+}
+
+.nav-container {
+  display: none;
+}
